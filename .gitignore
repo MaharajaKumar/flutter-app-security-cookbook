@@ -1,0 +1,273 @@
+############################################################
+# General
+############################################################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+*~
+test-apis
+test-apis/*
+docs/
+
+############################################################
+# Environment & Secrets
+############################################################
+.env
+.env.*
+!.env.example
+!.env.test
+
+*.keystore
+*.jks
+*.p12
+*.p8
+*.mobileprovision
+*.cer
+*.pem
+
+# Firebase / service configs (remove these lines if you want to commit them)
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+**/key.properties
+**/service-account*.json
+
+# Local config overrides
+*.local
+*.secret
+
+############################################################
+# Flutter / Dart
+############################################################
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.fvm/
+.fvmrc
+/build/
+coverage/
+*.dart.js
+*.js.deps
+*.js.map
+*.g.dart.bak
+
+# Generated code (uncomment if you do NOT want to commit generated files)
+# *.g.dart
+# *.freezed.dart
+# *.gr.dart
+# *.mocks.dart
+
+# Lock file: COMMIT it for apps, uncomment the line below for packages/libraries
+# pubspec.lock
+
+# Flutter version / symbolication
+.metadata
+app.*.symbols
+app.*.map.json
+**/generated_plugin_registrant.*
+
+############################################################
+# iOS / Xcode
+############################################################
+ios/build/
+ios/DerivedData/
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+
+*.xcuserstate
+*.xcuserdata/
+*.xccheckout
+*.hmap
+*.xcbkptlist
+*.perspectivev3
+
+# CocoaPods
+ios/Pods/
+ios/Podfile.lock
+macos/Pods/
+macos/Podfile.lock
+Podfile.lock
+vendor/bundle/
+.symlinks/
+
+# iOS Ruby/Gems
+.Gemfile.lock
+.bundle/
+
+############################################################
+# Android / Kotlin / Gradle
+############################################################
+android/.gradle/
+android/build/
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/.idea/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/captures/
+android/.cxx/
+android/app/.cxx/
+.cxx/
+*.iml
+*.hprof
+**/android/**/GeneratedPluginRegistrant.java
+
+# Kotlin
+.kotlin/
+*.class
+*.jar
+!gradle-wrapper.jar
+
+# Gradle
+.gradle/
+**/android/gradle/
+!**/android/gradle/wrapper/gradle-wrapper.jar
+
+############################################################
+# Web / Desktop (Flutter)
+############################################################
+web/.dart_tool/
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+macos/Flutter/ephemeral/
+macos/build/
+macos/DerivedData/
+windows/build/
+windows/DerivedData/
+linux/build/
+
+############################################################
+# Fastlane
+############################################################
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+**/fastlane/test_output/
+**/fastlane/readme.md
+**/fastlane/*.txt
+**/ios/fastlane/report.xml
+**/android/fastlane/report.xml
+
+############################################################
+# Testing / Coverage
+############################################################
+coverage/
+*.lcov
+*.lcov.info
+test-report/
+test/.test_coverage.dart
+integration_test/videos/
+integration_test/screenshots/
+**/failures/
+__screenshots__/
+
+############################################################
+# Build Artifacts
+############################################################
+dist/
+build/
+out/
+release/
+debug/
+/lib/**/*.tmp
+bin/
+obj/
+doc/api/
+
+############################################################
+# IDE / Editor
+############################################################
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-*
+.project
+.classpath
+.settings/
+.history/
+*.ipr
+*.iws
+
+############################################################
+# Docker
+############################################################
+docker-compose.override.yml
+*.env.docker
+.docker/
+docker-compose.local.yml
+
+############################################################
+# CI/CD
+############################################################
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+*.dSYM/
+*.xcarchive
+
+############################################################
+# Performance & Analytics
+############################################################
+*.trace
+*.heapsnapshot
+*.cpuprofile
+
+############################################################
+# Debugging
+############################################################
+debug.log
+chrome-user-data/
+devtools_options.yaml
+
+############################################################
+# Misc
+############################################################
+tmp/
+temp/
+.cache/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Patch files
+*.patch
+!patches/*.patch
+
+# Melos / monorepo
+.melos_tool/
