@@ -1,5 +1,5 @@
-name: flutter_security_cookbook
-description: "A new Flutter project."
+name: flutter_app_security_cookbook
+description: "A comprehensive, production-grade security guide, threat-modeling reference, and implementation cookbook for Flutter apps on Android and iOS."
 
 publish_to: 'none'
 
